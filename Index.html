@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Salário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Calculadora de Salário</h1>
+    
+    <form id="calculadoraForm">
+
+        <label for="salarioBruto">Digite seu salário:</label>
+        <input type="number" id="salarioBruto" required>
+        
+        <label for="brutoHorasExtras">Informe o valor recebido por horas extras:</label>
+        <input type="number" id="brutoHorasExtras" required>
+
+        <label for="numeroFaltas">Informe o número de faltas:</label>
+        <input type="number" id="numeroFaltas" required>
+
+        <label for="venderFerias">Vender 1/3 das férias?</label>
+        <input type="number" id="venderFerias" required>
+
+        <label for="dependentes">Digite o número de dependentes:</label>
+        <input type="number" id="dependentes" required>
+
+        <label for="pensao">Digite o valor da pensão alimentícia:</label>
+        <input type="number" id="pensao" required>
+
+        <label for="outrosDescontos">Outros descontos:</label>
+        <input type="number" id="outrosDescontos" required>
+
+        
+        <input type="submit" value="Calcular Salário">
+    </form>
+    
+    <div id="resultado">
+    <p id="resultadoInss"></p>
+    </div>
+    <div id="resultado">
+        <p id="resultadoIrrf"></p>
+    </div>
+    <div id="resultado">
+        <p id="resultadoOutros"></p>
+    </div>
+    <div id="resultado">
+        <p id="resultadoLiquido"></p>
+    </div>
+    <div id="resultado">
+        <p id="valorFerias"></p>
+    </div>
+
+        <script src="main.js"></script>
+
+</body>
+<footer>
+
+</footer>
+</html>

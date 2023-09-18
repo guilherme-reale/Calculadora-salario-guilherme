@@ -1,0 +1,95 @@
+    /* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o cabeçalho */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para o texto do resultado */
+#resultadoInss {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#resultadoIrrf {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+#resultadoOutros {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+#resultadoLiquido {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+#valorFerias {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
